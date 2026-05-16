@@ -1,4 +1,4 @@
-# 🧠 Adaptive Quiz Engine with Difficulty Adjustment (CAT-lite)
+## 🧠 Adaptive Quiz Engine with Difficulty Adjustment (CAT-lite)
 A Full Stack Java Web Application that implements a lightweight **Computerized Adaptive Testing (CAT)** algorithm. The quiz dynamically adjusts question difficulty based on the user's running score trajectory — delivering a personalized quiz experience.
 ## 📌 Project Requirement
 > Implement a lightweight Computerized Adaptive Testing (CAT) algorithm in the Servlet layer — question difficulty adjusts based on running score trajectory.
@@ -109,7 +109,7 @@ CREATE TABLE session_logs (
 ### Steps
 1. **Clone the repository**
 ```bash
-git clone https://github.com/keshavachanna045-hash/AdaptiveQuizEngine.git
+git clone https://github.com/channakeshavareddy-coder/AdaptiveQuizEngine.git
 ```
 2. **Set up the database**
    - Open MySQL Workbench
@@ -149,7 +149,7 @@ http://localhost:8080/quiz
 ---
 ## 👨‍💻 Developer
 **Channakeshava Reddy**
-- GitHub: [@keshavachanna045-hash](https://github.com/keshavachanna045-hash)
+- GitHub: channakeshavareddy-coder
 ---
 ## 📄 License
 This project is developed as part of an academic requirement for demonstrating Full Stack Java Web Development skills using Jakarta EE, Apache Tomcat, and MySQL.
