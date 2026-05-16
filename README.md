@@ -149,7 +149,7 @@ http://localhost:8080/quiz
 ---
 ## 👨‍💻 Developer
 **Channakeshava Reddy**
-- GitHub: channakeshavareddy-coder
+- GitHub: @channakeshavareddy-coder
 ---
 ## 📄 License
 This project is developed as part of an academic requirement for demonstrating Full Stack Java Web Development skills using Jakarta EE, Apache Tomcat, and MySQL.
