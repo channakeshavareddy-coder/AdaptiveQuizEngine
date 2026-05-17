@@ -7,6 +7,7 @@ public class QuizSession {
     private int score;
     private int totalAnswered;
     private int correctAnswers;
+    private int consecutiveCorrect;
 
     public QuizSession(String sessionId) {
         this.sessionId = sessionId;
@@ -14,15 +15,21 @@ public class QuizSession {
         this.score = 0;
         this.totalAnswered = 0;
         this.correctAnswers = 0;
+        this.consecutiveCorrect = 0;
     }
 
     // CAT Logic — adjust difficulty based on performance
     public void updateDifficulty(boolean isCorrect) {
         if (isCorrect) {
             correctAnswers++;
-            score += currentDifficulty * 10; // Hard = more points
-            if (currentDifficulty < 3) currentDifficulty++;
+            score += currentDifficulty * 10;
+            consecutiveCorrect++;
+            if (consecutiveCorrect >= 3 && currentDifficulty < 3) {
+                currentDifficulty++;
+                consecutiveCorrect = 0;
+            }
         } else {
+            consecutiveCorrect = 0;
             if (currentDifficulty > 1) currentDifficulty--;
         }
         totalAnswered++;
