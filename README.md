@@ -101,8 +101,8 @@ CREATE TABLE session_logs (
 ---
 ## ⚙️ How to Run
 ### Prerequisites
-- Java 17
-- Apache Tomcat 11
+- Java 11
+- Apache Tomcat 9
 - MySQL Server
 - IntelliJ IDEA
 - Maven
